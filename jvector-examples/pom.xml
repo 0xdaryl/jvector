@@ -264,6 +264,7 @@
                                         <argument>-Xmx14G</argument>
                                         <argument>-ea</argument>
                                         <argument>-Djvector.experimental.enable_native_vectorization=true</argument>
+                                        <argument>${exec.jvmargs}</argument>
                                         <argument>io.github.jbellis.jvector.example.Bench</argument>
                                         <argument>${benchArgs}</argument>
                                     </arguments>
